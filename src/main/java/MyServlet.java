@@ -12,7 +12,7 @@ public class MyServlet extends HttpServlet {
             IOException{
         resp.setContentType("text/html");
         resp.getWriter().write("Hello, world");
-        resp.getWriter().write(req.getServletPath());
+
 
     }
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException,
